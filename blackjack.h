@@ -90,7 +90,7 @@ std::cout << std::endl;
        {
            std::cout << WHITE_BG << BLACK_CARD << "  4       " << RESET ;
        }
-//5
+//5 PART
        else if (shuffledCards[i] == "5H" || shuffledCards[i] == "5D")
        {
            std::cout << WHITE_BG << RED_CARD << "  5       " << RESET ;
@@ -99,7 +99,7 @@ std::cout << std::endl;
        {
            std::cout << WHITE_BG << BLACK_CARD << "  5       " << RESET ;
        }
-//6
+//6 PART
        else if (shuffledCards[i] == "6H" || shuffledCards[i] == "6D")
        {
            std::cout << WHITE_BG << RED_CARD << "  6       " << RESET ;
@@ -108,7 +108,7 @@ std::cout << std::endl;
        {
            std::cout << WHITE_BG << BLACK_CARD << "  6       " << RESET ;
        }
-//7
+//7 PART
        else if (shuffledCards[i] == "7H" || shuffledCards[i] == "7D")
        {
            std::cout << WHITE_BG << RED_CARD << "  7       " << RESET ;
@@ -117,7 +117,7 @@ std::cout << std::endl;
        {
            std::cout << WHITE_BG << BLACK_CARD << "  7       " << RESET ;
        }
-//8
+//8 PART
        else if (shuffledCards[i] == "8H" || shuffledCards[i] == "8D")
        {
            std::cout << WHITE_BG << RED_CARD << "  8       " << RESET ;
@@ -126,7 +126,7 @@ std::cout << std::endl;
        {
            std::cout << WHITE_BG << BLACK_CARD << "  8       " << RESET ;
        }
-//9
+//9 PART 
        else if (shuffledCards[i] == "9H" || shuffledCards[i] == "9D")
        {
            std::cout << WHITE_BG << RED_CARD << "  9       " << RESET ;
@@ -135,7 +135,7 @@ std::cout << std::endl;
        {
            std::cout << WHITE_BG << BLACK_CARD << "  9       " << RESET ;
        }
-//10
+//10 PART
        else if (shuffledCards[i] == "10H" || shuffledCards[i] == "10D")
        {
            std::cout << WHITE_BG << RED_CARD << "  10      " << RESET ;
