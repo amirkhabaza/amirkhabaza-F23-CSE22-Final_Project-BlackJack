@@ -13,6 +13,7 @@
 void shuffleCards(std::string cards[], int size) {
     // Seed the random number generator
     std::srand(std::time(0));
+    //
 
     // Shuffle the cards using the Fisher-Yates algorithm
     for (int i = size - 1; i > 0; --i) {
@@ -71,7 +72,7 @@ std::cout << std::endl;
 
 
 
-//3
+//3 3
        else if (shuffledCards[i] == "3H" || shuffledCards[i] == "3D")
        {
            std::cout << WHITE_BG << RED_CARD << "  3       " << RESET ;
