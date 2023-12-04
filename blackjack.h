@@ -38,7 +38,7 @@ void shuffleCards(std::string cards[], int size) {
 
 void printHand(std::string shuffledCards[], int startingHand)
 {
-//TOP
+//TOP PART
    for (int i = 0; i < startingHand; i++)
    {
        std::cout << WHITE_BG << "          " << RESET ;
@@ -50,7 +50,7 @@ std::cout << std::endl;
 //TOP NUM/LET
    for (int i = 0; i < startingHand; i++)
    {
-//ace
+//ace PART
        if (shuffledCards[i] == "AH" || shuffledCards[i] == "AD")
        {
            std::cout << WHITE_BG << RED_CARD << "  A       " << RESET ;
