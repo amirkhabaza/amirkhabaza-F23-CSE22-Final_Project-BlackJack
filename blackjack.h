@@ -59,7 +59,7 @@ std::cout << std::endl;
        {
            std::cout << WHITE_BG << BLACK_CARD << "  A       " << RESET ;
        }
-//2
+//2 PART
        else if (shuffledCards[i] == "2H" || shuffledCards[i] == "2D")
        {
            std::cout << WHITE_BG << RED_CARD << "  2       " << RESET ;
@@ -72,7 +72,7 @@ std::cout << std::endl;
 
 
 
-//3 3
+//3 3PART
        else if (shuffledCards[i] == "3H" || shuffledCards[i] == "3D")
        {
            std::cout << WHITE_BG << RED_CARD << "  3       " << RESET ;
@@ -81,7 +81,7 @@ std::cout << std::endl;
        {
            std::cout << WHITE_BG << BLACK_CARD << "  3       " << RESET ;
        }
-//4
+//4 PART
        else if (shuffledCards[i] == "4H" || shuffledCards[i] == "4D")
        {
            std::cout << WHITE_BG << RED_CARD << "  4       " << RESET ;
