@@ -179,17 +179,17 @@ std::cout << std::endl;
 //SYM 1ST PART
    for (int i = 0; i < startingHand; i++)
    {
-//d PART
+//D PART
        if (shuffledCards[i] == "AD" || shuffledCards[i] == "2D" || shuffledCards[i] == "3D" || shuffledCards[i] == "4D" || shuffledCards[i] == "5D" || shuffledCards[i] == "6D" || shuffledCards[i] == "7D" || shuffledCards[i] == "8D" || shuffledCards[i] == "9D" || shuffledCards[i] == "10D" || shuffledCards[i] == "JD" || shuffledCards[i] == "QD" || shuffledCards[i] == "KD")
        {
        std::cout << WHITE_BG << RED_CARD << "    /\\    " << RESET ;
        }
-//h
+//H PART
        else if (shuffledCards[i] == "AH" || shuffledCards[i] == "2H" || shuffledCards[i] == "3H" || shuffledCards[i] == "4H" || shuffledCards[i] == "5H" || shuffledCards[i] == "6H" || shuffledCards[i] == "7H" || shuffledCards[i] == "8H" || shuffledCards[i] == "9H" || shuffledCards[i] == "10H" || shuffledCards[i] == "JH" || shuffledCards[i] == "QH" || shuffledCards[i] == "KH")
        {
        std::cout << WHITE_BG << RED_CARD << "   _  _   " << RESET ;
        }
-//s
+//S
        else if (shuffledCards[i] == "AS" || shuffledCards[i] == "2S" || shuffledCards[i] == "3S" || shuffledCards[i] == "4S" || shuffledCards[i] == "5S" || shuffledCards[i] == "6S" || shuffledCards[i] == "7S" || shuffledCards[i] == "8S" || shuffledCards[i] == "9S" || shuffledCards[i] == "10S" || shuffledCards[i] == "JS" || shuffledCards[i] == "QS" || shuffledCards[i] == "KS")
        {
        std::cout << WHITE_BG << BLACK_CARD << "    /\\    " << RESET ;
