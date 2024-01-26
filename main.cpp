@@ -61,7 +61,6 @@ int main() {
         if (outcome == "You win!" || outcome == "You got a blackjack!") {
             bankAmount += betAmount;
             cout << endl;
-            cout << endl;
         } else if (outcome == "You lose!") {
             bankAmount -= betAmount;
         }
